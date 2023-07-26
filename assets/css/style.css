@@ -1,0 +1,11 @@
+body{
+    background-color: lightyellow;
+}
+
+#toDoForm .toDoItemGroup{
+    flex-grow: 1;
+}
+
+#toDoItem{
+    width: 100%;
+}
