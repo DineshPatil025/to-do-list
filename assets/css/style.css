@@ -1,5 +1,5 @@
 body{
-    background-color: lightyellow;
+    background-color: rgb(50, 50, 47);
 }
 
 #toDoForm .toDoItemGroup{
@@ -9,3 +9,26 @@ body{
 #toDoItem{
     width: 100%;
 }
+
+.toDoList{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.50rem 1.25rem;
+    align-items: center;
+}
+
+.toDoListItem {
+    font-weight: 400;
+    font-size: 27px;
+}
+.editListItem{
+    color: rgb(96, 155, 8);
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.deleteListItem{
+    color: red;
+    cursor: pointer;
+}
+
