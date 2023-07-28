@@ -86,7 +86,7 @@ const templating = (arr) => {
                                 <i class="fa-solid fa-pen-to-square fa-2x editListItem" id="btnEdit"
                                 onclick = "btnEdit(this)"
                                 data-id = "${list.skillId}"></i>
-                                <i class="fa-solid fa-trash-can fa-2x " 
+                                <i class="fa-solid fa-trash-can fa-2x deleteListItem" 
                                 onclick = "btnDelete(this)" id="deleteListItem"
                                 data-id = "${list.skillId}"></i>
                             </span>
